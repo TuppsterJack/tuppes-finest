@@ -1,0 +1,31 @@
+{
+  "effects": [
+    {
+      "id": "warrior_whirlwind_fx",
+      "class": "warrior",
+      "spell": "Whirlwind",
+      "frame_size": {"w": 64, "h": 64},
+      "frames": 12,
+      "fps": 14,
+      "event_tag": "AOE_RELEASE"
+    },
+    {
+      "id": "mage_arcane_nova_fx",
+      "class": "mage",
+      "spell": "Arcane Nova",
+      "frame_size": {"w": 64, "h": 64},
+      "frames": 14,
+      "fps": 14,
+      "event_tag": "AOE_RELEASE"
+    },
+    {
+      "id": "archer_volley_rain_fx",
+      "class": "archer",
+      "spell": "Volley Rain",
+      "frame_size": {"w": 64, "h": 64},
+      "frames": 16,
+      "fps": 14,
+      "event_tag": "PROJECTILE_SPAWN"
+    }
+  ]
+}

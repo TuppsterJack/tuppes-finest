@@ -1,0 +1,12 @@
+{
+  "entity": "mob_skeleton",
+  "frame_size": {"w": 32, "h": 32},
+  "fps_default": 12,
+  "animations": [
+    {"name": "idle", "frames": 6, "fps": 8, "loop": true},
+    {"name": "walk", "frames": 8, "fps": 12, "loop": true},
+    {"name": "attack", "frames": 8, "fps": 12, "loop": false},
+    {"name": "hurt", "frames": 4, "fps": 10, "loop": false},
+    {"name": "death", "frames": 8, "fps": 10, "loop": false}
+  ]
+}

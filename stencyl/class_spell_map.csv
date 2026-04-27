@@ -1,0 +1,7 @@
+class,resource,base_attack,spell_id,spell_name,type,cooldown,cost,priority,range_or_radius
+warrior,rage,cleave,warrior_whirlwind,Whirlwind,aoe,8.0,35,90,2.2
+warrior,rage,cleave,warrior_guard_break,Guard Break,single,6.0,20,60,1.5
+mage,mana,arcane_bolt,mage_arcane_nova,Arcane Nova,aoe,9.0,40,90,2.8
+mage,mana,arcane_bolt,mage_ice_lance,Ice Lance,single,5.0,18,70,5.5
+archer,focus,arrow_shot,archer_volley_rain,Volley Rain,aoe,10.0,42,90,3.0
+archer,focus,arrow_shot,archer_piercing_arrow,Piercing Arrow,line,6.0,22,65,6.5

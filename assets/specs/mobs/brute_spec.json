@@ -1,0 +1,12 @@
+{
+  "entity": "mob_brute",
+  "frame_size": {"w": 48, "h": 48},
+  "fps_default": 10,
+  "animations": [
+    {"name": "idle", "frames": 6, "fps": 8, "loop": true},
+    {"name": "walk", "frames": 8, "fps": 10, "loop": true},
+    {"name": "smash", "frames": 10, "fps": 10, "loop": false},
+    {"name": "hurt", "frames": 4, "fps": 10, "loop": false},
+    {"name": "death", "frames": 10, "fps": 10, "loop": false}
+  ]
+}

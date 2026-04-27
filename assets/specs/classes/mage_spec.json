@@ -1,0 +1,22 @@
+{
+  "class": "mage",
+  "frame_size": {"w": 32, "h": 32},
+  "resource": "mana",
+  "base_attack": {"name": "arcane_bolt", "range": 5.5, "frames": 7, "fps": 12},
+  "animations": [
+    {"name": "idle", "frames": 6, "fps": 8, "loop": true},
+    {"name": "auto_walk", "frames": 8, "fps": 12, "loop": true},
+    {"name": "auto_attack", "frames": 7, "fps": 12, "loop": false},
+    {"name": "cast_start", "frames": 5, "fps": 10, "loop": false},
+    {"name": "cast_loop", "frames": 4, "fps": 8, "loop": true},
+    {"name": "cast_release", "frames": 6, "fps": 12, "loop": false},
+    {"name": "aoe_cast", "frames": 10, "fps": 12, "loop": false},
+    {"name": "hurt", "frames": 4, "fps": 10, "loop": false},
+    {"name": "death", "frames": 10, "fps": 10, "loop": false},
+    {"name": "victory", "frames": 6, "fps": 8, "loop": true}
+  ],
+  "spells": [
+    {"id": "mage_arcane_nova", "name": "Arcane Nova", "type": "aoe", "radius": 2.8, "cooldown": 9.0, "cost": 40, "priority": 90},
+    {"id": "mage_ice_lance", "name": "Ice Lance", "type": "single", "cooldown": 5.0, "cost": 18, "priority": 70}
+  ]
+}
