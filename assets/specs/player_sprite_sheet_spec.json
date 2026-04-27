@@ -1,0 +1,23 @@
+{
+  "entity": "hero_main",
+  "frame_size": {"w": 32, "h": 32},
+  "directions": ["N", "S", "E", "W"],
+  "fps_default": 12,
+  "animations": [
+    {"name": "idle", "frames": 6, "fps": 8, "loop": true},
+    {"name": "walk", "frames": 8, "fps": 12, "loop": true},
+    {"name": "run", "frames": 8, "fps": 14, "loop": true},
+    {"name": "attack_1", "frames": 8, "fps": 12, "loop": false},
+    {"name": "attack_2", "frames": 10, "fps": 12, "loop": false},
+    {"name": "hurt", "frames": 4, "fps": 10, "loop": false},
+    {"name": "jump", "frames": 6, "fps": 12, "loop": false},
+    {"name": "fall", "frames": 2, "fps": 8, "loop": true},
+    {"name": "death", "frames": 10, "fps": 10, "loop": false}
+  ],
+  "pivot": "bottom_center",
+  "notes": [
+    "Mirror E for W only if silhouette permits.",
+    "Keep weapon arc readable in 1x scale.",
+    "Use 1-pixel outline on bright backgrounds."
+  ]
+}

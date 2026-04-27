@@ -1,0 +1,12 @@
+{
+  "entity": "mob_slime",
+  "frame_size": {"w": 32, "h": 32},
+  "fps_default": 10,
+  "animations": [
+    {"name": "idle", "frames": 4, "fps": 8, "loop": true},
+    {"name": "move", "frames": 6, "fps": 10, "loop": true},
+    {"name": "attack", "frames": 6, "fps": 12, "loop": false},
+    {"name": "hurt", "frames": 3, "fps": 10, "loop": false},
+    {"name": "death", "frames": 6, "fps": 10, "loop": false}
+  ]
+}

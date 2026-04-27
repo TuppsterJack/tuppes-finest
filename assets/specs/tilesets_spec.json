@@ -1,0 +1,17 @@
+{
+  "tile_size": 32,
+  "packs": [
+    {
+      "name": "nature",
+      "entries": ["grass_01..12", "dirt_transition_01..16", "cliff_edge_01..20", "water_anim_01..08"]
+    },
+    {
+      "name": "dungeon",
+      "entries": ["floor_01..12", "wall_01..20", "props_01..18"]
+    },
+    {
+      "name": "props",
+      "entries": ["crate_01..04", "barrel_01..04", "torch_anim_01..06", "fence_sign_01..10"]
+    }
+  ]
+}

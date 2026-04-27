@@ -1,0 +1,21 @@
+{
+  "class": "archer",
+  "frame_size": {"w": 32, "h": 32},
+  "resource": "focus",
+  "base_attack": {"name": "arrow_shot", "range": 6.5, "frames": 6, "fps": 12},
+  "animations": [
+    {"name": "idle", "frames": 6, "fps": 8, "loop": true},
+    {"name": "auto_walk", "frames": 8, "fps": 12, "loop": true},
+    {"name": "auto_attack", "frames": 6, "fps": 12, "loop": false},
+    {"name": "cast_start", "frames": 4, "fps": 10, "loop": false},
+    {"name": "cast_release", "frames": 6, "fps": 12, "loop": false},
+    {"name": "aoe_cast", "frames": 9, "fps": 12, "loop": false},
+    {"name": "hurt", "frames": 4, "fps": 10, "loop": false},
+    {"name": "death", "frames": 10, "fps": 10, "loop": false},
+    {"name": "victory", "frames": 6, "fps": 8, "loop": true}
+  ],
+  "spells": [
+    {"id": "archer_volley_rain", "name": "Volley Rain", "type": "aoe", "radius": 3.0, "cooldown": 10.0, "cost": 42, "priority": 90},
+    {"id": "archer_piercing_arrow", "name": "Piercing Arrow", "type": "line", "cooldown": 6.0, "cost": 22, "priority": 65}
+  ]
+}

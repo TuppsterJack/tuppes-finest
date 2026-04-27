@@ -1,0 +1,24 @@
+{
+  "auto_walk": {
+    "modes": ["lane_loop", "waypoint_pingpong"],
+    "resume_delay_seconds": 1.2,
+    "class_speed_multiplier": {
+      "warrior": 1.0,
+      "mage": 0.95,
+      "archer": 1.1
+    }
+  },
+  "auto_attack": {
+    "target_priority": [
+      "attacker_of_player",
+      "lowest_hp_in_range",
+      "nearest"
+    ],
+    "target_lock_timeout_seconds": 1.0
+  },
+  "auto_cast": {
+    "rule": "first_ready_by_priority",
+    "aoe_default_target_cap": 5,
+    "cooldown_floor_percent": 35
+  }
+}
